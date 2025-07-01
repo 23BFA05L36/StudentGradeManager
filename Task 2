@@ -1,3 +1,15 @@
+EXPLANATION :
+  Here's a  Java Stock Trading Platform simulation using Object-Oriented Programming (OOP) principles. It supports:
+
+  ✅ Viewing market stocks
+  ✅ Buying/Selling stocks
+  ✅ Viewing portfolio performance
+  ✅ Saving/Loading portfolio from a file (File I/O included)
+
+
+
+SOURCE CODE :
+
 import java.io.*;
 import java.util.*;
 
@@ -197,4 +209,94 @@ public class StockTradingPlatform {
         }
     }
 }
+OUTPUT :
 
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 1
+--- Market Stocks ---
+Tata Consultancy Services (TCS): â??3800.00
+Reliance Industries (RELI): â??2500.00
+HDFC Bank (HDFC): â??1600.00
+Infosys Ltd (INFY): â??1450.00
+
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 2
+Enter stock symbol to buy: TCS
+Enter quantity: 1
+Bought 1 shares of TCS
+
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 3
+Enter stock symbol to sell: TCS
+Enter quantity: 1
+Sold 1 shares of TCS
+
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 4
+---- Portfolio of Alice ----
+Tata Consultancy Services (TCS): 0 shares - â??0.00
+Cash Balance: â??100000.00
+Total Portfolio Value: â??100000.00
+
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 5
+Enter filename to save: Stock
+Portfolio saved to file.
+
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 6
+Enter filename to load: Stock
+Portfolio loaded from file.
+
+--- Stock Trading Menu ---
+1. View Market
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Save Portfolio
+6. Load Portfolio
+0. Exit
+Choose option: 0
+Thank you for using the Stock Trading Platform!
