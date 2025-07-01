@@ -1,10 +1,10 @@
 EXPLANATION :
   Here's a  Java Stock Trading Platform simulation using Object-Oriented Programming (OOP) principles. It supports:
 
-  ✅ Viewing market stocks
-  ✅ Buying/Selling stocks
-  ✅ Viewing portfolio performance
-  ✅ Saving/Loading portfolio from a file (File I/O included)
+  -> Viewing market stocks
+  -> Buying/Selling stocks
+  -> Viewing portfolio performance
+  -> Saving/Loading portfolio from a file (File I/O included)
 
 
 
